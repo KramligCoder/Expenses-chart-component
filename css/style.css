@@ -15,7 +15,10 @@ body {
         HEADER
 =====================*/
 #m_header {
+    margin-top: 100px;
     background: hsl(10, 79%, 65%);
+    padding: 30px;
+    border-radius: 20px;
 }
 
 
@@ -24,4 +27,8 @@ body {
 =====================*/
 #m_main {
     background: hsl(33, 100%, 98%);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
