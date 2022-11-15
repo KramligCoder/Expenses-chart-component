@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
+  <body>
+    
+    <div id="m_header" class="m_container">
+      <header class="m_balance">
+        <span>My balance</span>
+        <h1>$921.48</h1>
+      </header>
+      <div class="m_logo">
+        <img src="./images/logo.svg">
+      </div>
+    </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <main id="m_main" class="m_container">
+      <div class="m_spend">
+        <h2>Spending - Last 7 days</h2>
+      </div>
+      <div class="m_date">
+        <ul>
+          <li>mon</li>
+          <li>tue</li>
+          <li>wed</li>
+          <li>thu</li>
+          <li>fri</li>
+          <li>sat</li>
+          <li>sun</li>
+        </ul>
+      </div>
+      <div class="m_total">
+        <div class="m_totaltext">
+          <span>Total this month</span>
+        </div>
+        <div class="m_totalamount">
+          <div class="m_price">
+            <h3>$478.33</h3>
+          </div>
+          <div class="m_percent">
+            <span>+2.4%</span>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
 
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
 </html>

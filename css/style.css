@@ -1,0 +1,27 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(27, 66%, 92%);
+}
+
+.m_container {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*=====================
+        HEADER
+=====================*/
+#m_header {
+    background: hsl(10, 79%, 65%);
+}
+
+
+/*=====================
+    CONTENT SECTION
+=====================*/
+#m_main {
+    background: hsl(33, 100%, 98%);
+}
