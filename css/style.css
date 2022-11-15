@@ -25,6 +25,7 @@
 
 body {
     background-color: hsl(27, 66%, 92%);
+    font-family: m_regular;
 }
 
 .m_container {
