@@ -29,9 +29,17 @@ body {
 }
 
 .m_container {
-    max-width: 500px;
+    max-width: 450px;
     margin: 0 auto;
     width: 100%;
+    PADDING: 40PX;
+}
+.m_wrap {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
 /*=====================
@@ -40,18 +48,47 @@ body {
 #m_header {
     margin-top: 100px;
     background: hsl(10, 79%, 65%);
-    padding: 30px;
     border-radius: 20px;
 }
-
+#m_header .m_balance {
+    color: #fff;
+}
+#m_header .m_balance h1 {
+    margin: 0;
+}
 
 /*=====================
     CONTENT SECTION
 =====================*/
 #m_main {
     background: hsl(33, 100%, 98%);
-    padding: 30px;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.m_spend h2 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: hsl(25, 47%, 15%);
+}
+.m_total {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid hsl(27, 66%, 92%);
+}
+.m_totaltext,
+.m_percent p {
+    color: hsl(28, 10%, 53%);
+    margin: 0;
+}
+.m_price h3 {
+    font-size: 40px;
+    margin: 0;
+    color: hsl(25, 47%, 15%);
+}
+.m_percent span {
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-weight: 600;
 }

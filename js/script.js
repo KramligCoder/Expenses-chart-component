@@ -3,11 +3,11 @@ const ctx = document.getElementById('m_Chart');
 new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'],
     datasets: [{
-      label: '# of Votes',
-      data: [12, 19, 3, 5, 2, 3],
-      borderWidth: 1
+      label: '$',
+      data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
+      backgroundColor: "hsl(10, 79%, 65%)"
     }]
   },
   options: {
