@@ -29,7 +29,7 @@ body {
 }
 
 .m_container {
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto;
     width: 100%;
     PADDING: 40PX;
@@ -46,7 +46,7 @@ body {
         HEADER
 =====================*/
 #m_header {
-    margin-top: 100px;
+    margin-top: 150px;
     background: hsl(10, 79%, 65%);
     border-radius: 20px;
 }
